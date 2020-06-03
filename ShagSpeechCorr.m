@@ -18,7 +18,7 @@ Hello1 = timetable(seconds((0:length(w)-1)'/fsHello1),wHello1);
 
 
 %%%%%%%%%%%%%%%% Change This %%%%%%%%%%%%%%%%%%%%%%
-[w2,fs2] = audioread('Rip2.wav');
+[w2,fs2] = audioread('YesTest.wav');
 TestWord = timetable(seconds((0:length(w)-1)'/fs2),w2);
 
 
